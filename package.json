@@ -1,12 +1,13 @@
 {
-  "name": "gulp-gh-pages",
+  "name": "gulp-gh-pages-with-updated-gift",
   "version": "0.5.4",
   "description": "gulp plugin to publish contents to Github pages",
   "repository": "shinnn/gulp-gh-pages",
   "license": "MIT",
   "author": "Micheal Benedict <micheal@visionmasterdesigns.com> (https://github.com/rowoot)",
   "contributors": [
-    "Shinnosuke Watanabe (https://github.com/shinnn)"
+    "Shinnosuke Watanabe (https://github.com/shinnn)",
+    "Benjamin Van Ryseghem (https://github.com/BenjaminVanRyseghem)"
   ],
   "keywords": [
     "git",
@@ -35,7 +36,7 @@
     "coverage": "istanbul cover _mocha test.js -x=test.js -- --timeout 50000"
   },
   "dependencies": {
-    "gift": "^0.7.0",
+    "gift": "^0.10.2",
     "gulp-util": "^3.0.7",
     "readable-stream": "^2.0.4",
     "rimraf": "^2.4.4",
